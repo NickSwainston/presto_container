@@ -1,0 +1,5 @@
+bootstrap: docker
+from: nickswainston/presto
+
+%environment
+ LD_LIBRARY_PATH=/code/lib:$LD_LIBRARY_PATH
